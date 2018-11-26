@@ -1,0 +1,94 @@
+/***** Admin Formatting *****/
+#wpbody { max-width: 98%; }
+hr {
+	border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 2px solid #fafafa;
+}
+
+/***** Tables *****/
+form.cpt-settings table.pagination-styles,
+form.cpt-settings table.pagination-single { 
+	display: none;
+	padding: 10px;
+	background-color: lightgrey;
+	border-radius: 6px;
+}
+.cpt-settings th:first-of-type,
+.cpt-settings td:first-of-type {
+	width: 75px;
+}
+.cpt-settings th:nth-of-type(n+2),
+.cpt-settings td:nth-of-type(n+2) {
+    width: 200px;
+	text-align: center;
+}
+tr.icon-setting {
+    height: 50px;
+}
+
+/***** Media library *****/
+.image-preview-wrapper {
+    overflow: hidden;
+    position: relative;
+	display: table;
+	margin: 0 auto;
+	max-width: 300px;
+}
+.featured_images .image-preview-wrapper { margin-left: 0; }
+.remove {
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+.image-preview-wrapper img[src=""] { display: none; }
+
+/***** Labels *****/
+form.cpt-settings .pagination-styles { display: none; }
+form.cpt-settings .pagination-single { display: none; }
+.style-option, .icon-option {
+	display: inline;
+	margin-right: 20px;
+}
+.cpt-checkbox-option p,
+.column-option p,
+.loop-display p,
+.pagination-option p,
+.pagination-style-option p,
+.pagination-icon-option p,
+.pagination-single-option p {
+	display: inline-block;
+	margin-right: 8px;
+}
+.pagination-styles-icons .icon-setting,
+.pagination-single-icons .icon-setting { display: none; }
+.fontawesome-link { 
+	display: none;
+	margin-bottom: 10px;
+}
+.loop-display { display: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** LEFTOVER *****/
+.blitz-testimonial-fields{
+    margin-bottom:20px;
+}
+.blitz-testimonial-fields input {
+  display: inline-block;
+  margin: 0 10px 4px 0px;
+}
+.blitz-testimonial-fields ul {
+  column-count: 4;
+}
